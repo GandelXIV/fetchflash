@@ -13,5 +13,4 @@ By adding extension.locators, you can download from more sites.(See how to make 
 In terminal:
 $ python3 fetchflash url [destination]
 Or run it and use the UI
-
 Then execute the download file using flashplayer.linux/flashplayer_32_sa_debug.exe

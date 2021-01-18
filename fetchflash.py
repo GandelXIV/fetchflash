@@ -42,7 +42,7 @@ except: original_page = correctURL(input("Enter superhry link:"))
 try: save_name = argv[2]
 except: save_name = None
 
-log("Connecting to server...")
+log("Connecting to the server...")
 html = rq.get(original_page).text
 
 # SFW SEARCHING
