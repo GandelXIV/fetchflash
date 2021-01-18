@@ -9,9 +9,6 @@ def correctURL(url):
 	        url = "http://" + url
 	return url.replace("///","//")
 
-def expandURL(url, og):
-	pass
-
 def log(text):
 	print(text)
 
@@ -23,11 +20,11 @@ URLVALIDATOR = re.compile(
         r'(?::\d+)?' # optional port
         r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
-LOCATORS = { 
+LOCATORS = {
 "superhry.cz":"www.*\.swf",
 "newgrounds.com":"https://uploads.ungrounded.net/.*\.swf",
-"kongregate.com":"https://www.kongregate.com/flash/.*\.swf"
-"y8.com":"https://img-hws.y8.com/cloud/y8-flash-game/.*\.swf"
+"kongregate.com":"https://www.kongregate.com/flash/.*\.swf",
+"y8.com":"https://img-hws.y8.com/cloud/y8-flash-game/.*\.swf",
 }
 
 # EXTENSION LOCATORS LOADING
@@ -40,8 +37,10 @@ for filename in listdir():
 		log("Loaded extension: {}".format(filename))
 
 # COLLECTING
-
-original_page = correctURL(input("Enter superhry link:"))
+try: original_page = correctURL(argv[1])
+except: original_page = correctURL(input("Enter superhry link:"))
+try: save_name = argv[2]
+except: save_name = None
 
 log("Connecting to server...")
 html = rq.get(original_page).text
@@ -62,7 +61,9 @@ log("Loaded link: {}".format(link))
 
 # SAVING
 log("Opening target file...")
-with open("game{}".format(link[-12:]).replace("/","_"), "wb") as f:
+if save_name is None:
+	save_name = "game{}".format(link[-12:]).replace("/","_")
+with open(save_name, "wb") as f:
 	log("Writing...")
 	f.write(rq.get(link).content)
 log("Done!")
