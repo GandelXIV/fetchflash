@@ -14,5 +14,6 @@ Run the fetchflash.py file in python. Then enter the url of the software you wan
 Once done, run it:
 # windows:
 start flashplayer_32_sa_debug.exe and click "open" then select the download file
+
 #linux:
 $ flashplayer.linux <downloadfile>
