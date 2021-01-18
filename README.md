@@ -1,5 +1,5 @@
 # fetchflash
-Install Adobe Flash software locally.
+Install Adobe Flash web software on your own machine
 
 # installation
 The only needed file is fetchflash.py.
