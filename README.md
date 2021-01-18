@@ -10,5 +10,8 @@ you can also run it from venv/ where all dependencies are stored
 By adding extension.locators, you can download from more sites.(See how to make extensions in #locators.md)
 
 # usage
-Run the fetchflash.py file in python. Then enter the url of the software you want to download.
-Once done, run it using flashplayer.linux/flashplayer_32_sa_debug.exe
+In terminal:
+$ python3 fetchflash url [destination]
+Or run it and use the UI
+
+Then execute the download file using flashplayer.linux/flashplayer_32_sa_debug.exe
