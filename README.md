@@ -11,9 +11,4 @@ By adding extension.locators, you can download from more sites.(See how to make 
 
 # usage
 Run the fetchflash.py file in python. Then enter the url of the software you want to download.
-Once done, run it:
-# windows:
-start flashplayer_32_sa_debug.exe and click "open" then select the download file
-
-#linux:
-$ flashplayer.linux <downloadfile>
+Once done, run it using flashplayer.linux/flashplayer_32_sa_debug.exe
