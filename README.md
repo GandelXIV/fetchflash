@@ -4,6 +4,10 @@ Install Adobe Flash web software on your own machine
 # usage
 1. Download the zip file and extract it
 2. Run all the files in windows_make / linux_make to install all missing requirements
+	for windows:
+	1. run the python installer
+	2. run the get-pip.py
+	3. install libraries
 3. Run the .py
 4. Enter the link to the original flash app page
 5. Start the flashplayer.exe/flashplayer.linux

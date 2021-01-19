@@ -1,0 +1,5 @@
+echo 'Using apt as the pkg manager...'
+apt install python3
+apt install python3-pip
+pip install requests
+echo 'Done!'
