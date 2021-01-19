@@ -25,6 +25,7 @@ LOCATORS = {
 "newgrounds.com":"https://uploads.ungrounded.net/.*\.swf",
 "kongregate.com":"https://www.kongregate.com/flash/.*\.swf",
 "y8.com":"https://img-hws.y8.com/cloud/y8-flash-game/.*\.swf",
+"maxgames.com":"https://farm\.maxgames\.com/.*\.swf",
 }
 
 # EXTENSION LOCATORS LOADING
