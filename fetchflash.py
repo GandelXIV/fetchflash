@@ -27,6 +27,7 @@ LOCATORS = {
 "y8.com":"https://img-hws.y8.com/cloud/y8-flash-game/.*\.swf",
 "maxgames.com":"https://farm\.maxgames\.com/.*\.swf",
 "gamepark.cz":"https://www\.gamepark\.cz/wp-content/flash-hry/.*\.swf",
+"flashgamesnexus.com":"http://www\.flashgamesnexus\.com/gamefiles/.*\.swf",
 }
 
 # EXTENSION LOCATORS LOADING
