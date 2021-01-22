@@ -1,0 +1,1 @@
+python3 /usr/lib/fetchflash/main.py $1 $2 $3
