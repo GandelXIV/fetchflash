@@ -1,3 +1,4 @@
+#!/bin/python3
 import requests as rq
 from sys import argv
 import re
@@ -41,7 +42,7 @@ for filename in listdir():
 
 # COLLECTING
 try: original_page = correctURL(argv[1])
-except: original_page = correctURL(input("Enter superhry link:"))
+except: original_page = correctURL(input("Enter link:"))
 try: save_name = argv[2]
 except: save_name = None
 
