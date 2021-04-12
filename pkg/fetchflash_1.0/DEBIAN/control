@@ -1,7 +1,0 @@
-Package: fetchflash
-Version: 1.0
-Section: base
-Architecture: i386
-Priority: optional
-Maintainer: Filip Chovanec <filip@chovanec.com>
-Description: Allows to install and play adobe flash software from just a web link

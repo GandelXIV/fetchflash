@@ -1,4 +1,0 @@
-./build
-sudo ./install
-fetchflash install https://www.superhry.cz/hra/4368-murloc testgame.swf
-fetchflash play testgame.swf

@@ -1,17 +1,6 @@
 # fetchflash
 Install Adobe Flash web software on your own machine
 
-# usage
-1. Download the zip file and extract it
-2. Run windowsmake.bat or linuxmake to satisfy all requirements
-3. Run the .py file
-4. Enter the link to the original flash app page
-5. Start the flashplayer.exe/flashplayer.linux
-6. Click open file
-7. Select the downloaded file
-8. Enjoy!
-# advanced
-Run in terminal:
-./fetchflash source [destination]
-You can run from flashplayer using ./flashplayer.linux [file]
-In order to run the python alt, you need py 3.x and the requests lib
+# installation
+You will need python3 and the requests pip lib installed
+Run the src/fetchflash.py app either in terminal or desktop

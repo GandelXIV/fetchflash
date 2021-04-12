@@ -1,6 +1,0 @@
-# import fresh components
-cp ../fetchflash.py fetchflash_1.0/usr/lib/fetchflash
-cp ../flashplayer.linux fetchflash_1.0/usr/lib/fetchflash
-# move fresh .deb pkg to release
-cp fetchflash_1.0.deb ../
-mv ../fetchflash_1.0.deb ../fetchflash.deb
